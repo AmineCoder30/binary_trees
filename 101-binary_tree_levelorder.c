@@ -26,7 +26,7 @@ void binary_tree_levelorder(const binary_tree_t *tree, void (*func)(int))
 /**
  * lv_pr_func - prints nodes at the same level
  * @tree: tree root
- * @level: level node
+ * @lv: level node
  * @func: pointer to a function
  * Return: no return
  */
